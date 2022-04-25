@@ -1,10 +1,13 @@
 #include "isr.h"
-#include "idt.h"
+//#include "idt.h"
 #include "../drivers/screen.h"
 #include "../drivers/keyboard.h"
 #include "../libc/string.h"
 #include "timer.h"
 #include "ports.h"
+
+extern void set_idt_gate();
+extern void set_idt();
 
 isr_t interrupt_handlers[256];
 

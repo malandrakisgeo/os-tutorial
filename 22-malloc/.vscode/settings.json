@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "mem.h": "c",
+        "ports.h": "c",
+        "isr.h": "c"
+    }
+}

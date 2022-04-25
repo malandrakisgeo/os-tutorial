@@ -11,6 +11,11 @@ void main() {
         "Type END to halt the CPU\n> ");
 }
 
+void s(){
+        kprint("SSS: ");
+
+}
+
 void user_input(char *input) {
     if (strcmp(input, "END") == 0) {
         kprint("Stopping the CPU. Bye!\n");

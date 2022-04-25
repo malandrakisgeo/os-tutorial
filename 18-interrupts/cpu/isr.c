@@ -1,5 +1,5 @@
 #include "isr.h"
-#include "idt.h"
+//#include "idt.h"
 #include "../drivers/screen.h"
 #include "../kernel/util.h"
 
